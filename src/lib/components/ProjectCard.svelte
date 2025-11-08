@@ -19,5 +19,6 @@
         border: white solid 1px;
         border-radius: 10px;
         padding: 5px;
+        margin-bottom: 3%;
     }
 </style>

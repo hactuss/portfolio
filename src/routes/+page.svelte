@@ -21,22 +21,22 @@
                 alt="haj-logo"
             />
             </div>-->
-        <br />
-        <span id="SIDEBAR_TEXT"> H A C T U S S</span>
-        <br />
+        <span id="SIDEBAR_TEXT">H A C T U S S</span>
         <a href="https://github.com/hactuss">
             <img src={ghlogo} alt="github_logo" />
         </a>
     </main>
     <main id="MAIN_CONTENTS">
         <header>
-            <h1>Name: <span class="marked">Hactuss</span></h1>
+            <h1>Name: <span id="marked1">Hactuss</span></h1>
             <ul>
                 <li>Frontend webdevelopment as a hobby</li>
                 <li>
-                    Primary programming language: <span id="marked2"
-                        >Svelte</span
+                    Primary programming language: <a
+                        id="marked2"
+                        href="https://svelte.dev/">Svelte</a
                     >
+                    and <a id="marked3" href="https://sass-lang.com/">SCSS</a>
                 </li>
                 <li>Seeking job in IT industry</li>
             </ul>
@@ -51,14 +51,12 @@
                 discription="A web app to automate the process of calculating the center of a given area. Useful in graphic design and more."
                 url="https://center-calc.vercel.app"
             />
-            <br />
             <ProjectCard
                 title="Worldclock"
                 buildtime="Dec 31. 2023"
                 discription="a website to show the current time in different timezones. Useful when interacting with people from all around the world. (Currently being rewritten in svelte.)"
                 url="https://hactuss.github.io/pages/office/office.html"
             />
-            <br />
             <ProjectCard
                 title="It is spooky month?"
                 buildtime="Sep 15. 2025"
@@ -73,7 +71,12 @@
                 <h3>Hobbies</h3>
                 <ul>
                     <li>Videoediting</li>
-                    <li>Experimenting with Linux</li>
+                    <li>
+                        Experimenting with Linux (Specifically <a
+                            id="marked4"
+                            href="https://nixos.org/">NixOS</a
+                        >)
+                    </li>
                     <li>Drawing comics</li>
                     <li>
                         Reading books regarding my hobbies or general literature
@@ -85,8 +88,7 @@
         <hr />
         <footer>
             <p>
-                Contact me via Email: <span class="marked"
-                    >hactuss@proton.me</span
+                Contact me via Email: <span id="marked1">hactuss@proton.me</span
                 >
             </p>
         </footer>
@@ -119,6 +121,8 @@
     }
     #SIDEBAR_TEXT {
         writing-mode: vertical-lr;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     #MAIN_CONTAINER {
         margin-left: 12.6%;
@@ -151,10 +155,16 @@
         width: 2.25rem;
     }
 
-    .marked {
+    #marked1 {
         color: rgb(200 250 20);
     }
     #marked2 {
         color: rgb(234 80 39);
+    }
+    #marked3 {
+        color: rgb(193 106 152);
+    }
+    #marked4 {
+        color: rgb(82 107 171);
     }
 </style>
