@@ -10,8 +10,26 @@
     let javascript_logo =
         "https://imgs.search.brave.com/2Lop95efMN3mNn8YORMHw4gXlmuiYbR1SXVpQQV4NCo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk5L1Vu/b2ZmaWNpYWxfSmF2/YVNjcmlwdF9sb2dv/XzIuc3ZnLzI1MHB4/LVVub2ZmaWNpYWxf/SmF2YVNjcmlwdF9s/b2dvXzIuc3ZnLnBu/Zw";
     let screenshot = [ss_ccenter, ss_Worldclock, ss_spookymonth];
+
+    let number = $state(1);
+    $effect(() => {
+        setInterval(() => {
+            return number++;
+        }, 1000);
+    });
 </script>
 
+<!--
+<pre>
+ ___  ___  ________  ________ _________  ___  ___  ________   ________
+|\  \|\  \|\   __  \|\   ____\\___   ___\\  \|\  \|\   ____\ |\   ____\
+ \ \  \\\  \ \  \|\  \ \  \___\|___ \  \_\ \  \\\  \ \  \___|_\ \  \___|_
+  \ \   __  \ \   __  \ \  \       \ \  \ \ \  \\\  \ \_____  \\ \_____  \
+   \ \  \ \  \ \  \ \  \ \  \____   \ \  \ \ \  \\\  \|____|\  \\|____|\  \
+    \ \__\ \__\ \__\ \__\ \_______\  \ \__\ \ \_______\____\_\  \ ____\_\  \
+     \|__|\|__|\|__|\|__|\|_______|   \|__|  \|_______|\_________\\_________\
+                                                      \|_________\|_________|
+</pre> -->
 <main id="MAIN_CONTAINER">
     <main id="SIDEBAR">
         <!--
