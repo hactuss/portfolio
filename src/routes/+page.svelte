@@ -22,7 +22,7 @@
             />
             </div>-->
         <span id="SIDEBAR_TEXT">H A C T U S S</span>
-        <a href="https://github.com/hactuss">
+        <a href="https://github.com/hactuss" id="githublogo">
             <img src={ghlogo} alt="github_logo" />
         </a>
     </main>
@@ -36,7 +36,8 @@
                         id="marked2"
                         href="https://svelte.dev/">Svelte</a
                     >
-                    and <a id="marked3" href="https://sass-lang.com/">SCSS</a>
+                    and
+                    <a id="marked3" href="https://sass-lang.com/">SCSS</a>
                 </li>
                 <li>Seeking job in IT industry</li>
             </ul>
@@ -82,6 +83,7 @@
                         Reading books regarding my hobbies or general literature
                     </li>
                     <li>Gaming</li>
+                    <li>this some text<span>thsi thext </span></li>
                 </ul>
             </div>
         </div>
@@ -107,9 +109,11 @@
 </main>
 
 <style>
-    *::selection {
-        color: rgb(50 50 50);
-        background-color: rgb(200 250 20);
+    * {
+        ::selection {
+            color: rgb(50 50 50);
+            background-color: rgb(200 250 20);
+        }
     }
     #SIDEBAR {
         width: 100%;
@@ -128,6 +132,7 @@
         margin-left: 12.6%;
         margin-right: 12.6%;
         display: flex;
+        flex-direction: row;
         height: 100%;
     }
     #MAIN_CONTENTS {
@@ -135,7 +140,7 @@
         display: flex;
         flex-direction: column;
     }
-
+    /*
     #SIDEBAR_LOGO {
         background-color: rgb(50 50 50);
         width: fit-content;
@@ -148,11 +153,15 @@
         opacity: 0.75;
         width: 400px;
     }
-    /*#Projects_wrapper {
+    #Projects_wrapper {
         border: solid 1px white;
-        }*/
+    }*/
     img {
         width: 2.25rem;
+    }
+    span {
+        margin: 0;
+        padding: 0;
     }
 
     #marked1 {
@@ -166,5 +175,21 @@
     }
     #marked4 {
         color: rgb(82 107 171);
+    }
+
+    @media screen and (width <= 500px) {
+        #MAIN_CONTAINER {
+            flex-direction: column;
+            margin: 0;
+        }
+        #SIDEBAR {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+        #SIDEBAR_TEXT {
+            writing-mode: horizontal-tb;
+            margin-left: 1rem;
+        }
     }
 </style>
