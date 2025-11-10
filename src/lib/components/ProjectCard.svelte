@@ -3,13 +3,17 @@
     export let discription;
     export let url;
     export let buildtime;
+    export let url_gh;
 </script>
 
 <main>
     <h2>{title}</h2>
     <p>started {buildtime}</p>
     <p>{discription}</p>
-    <a href={url}>Visit ⇱</a>
+    <div>
+        <a href={url}>Visit ⇱</a>
+        <a href={url_gh}>Source ⇱</a>
+    </div>
 </main>
 
 <style>

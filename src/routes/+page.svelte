@@ -72,28 +72,32 @@
         <div id="Projects_wrapper">
             <h2>Projects</h2>
             <ProjectCard
-                title="This portfolio"
-                buildtime="Oct 10. 2025"
+                title="Portfolio"
+                buildtime="Nov 2. 2025"
                 discription="This portfolio I created to tell about my projects and work."
                 url="/"
+                url_gh="https://github.com/hactuss/semiportfolio-type-sht"
             />
             <ProjectCard
                 title="Center Calculator"
                 buildtime="Sep 27. 2025"
                 discription="A web app to automate the process of calculating the center of a given area. Useful in graphic design and more."
                 url="https://center-calc.vercel.app"
+                url_gh="https://github.com/hactuss/ccenter"
             />
             <ProjectCard
                 title="Worldclock"
                 buildtime="Dec 31. 2023"
                 discription="a website to show the current time in different timezones. Useful when interacting with people from all around the world. (Currently being rewritten in svelte.)"
                 url="https://hactuss.github.io/pages/office/office.html"
+                url_gh="https://github.com/hactuss/hactuss.github.io"
             />
             <ProjectCard
                 title="It is spooky month?"
                 buildtime="Sep 15. 2025"
                 discription="a small jokewebsite I built in reference to the Spooky Month indie animation series. Shows something special in october."
                 url="https://isitspookymonth.vercel.app"
+                url_gh="https://github.com/hactuss/isitspookymonthdotcom"
             />
         </div>
         <hr />
@@ -114,7 +118,6 @@
                         Reading books regarding my hobbies or general literature
                     </li>
                     <li>Gaming</li>
-                    <li>this some text<span>thsi thext </span></li>
                 </ul>
             </div>
         </div>
