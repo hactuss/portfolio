@@ -170,6 +170,9 @@
         display: flex;
         flex-direction: row;
         height: 100%;
+        backdrop-filter: brightness(0);
+
+        filter: brightness(1);
     }
     #MAIN_CONTENTS {
         width: 100%;
