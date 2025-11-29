@@ -101,6 +101,13 @@
                 url="https://isitspookymonth.vercel.app"
                 url_gh="https://github.com/hactuss/isitspookymonthdotcom"
             />
+            <ProjectCard
+                title="Ultrakill Terminal"
+                buildtime="Nov 29. 2025"
+                discription="a recreation of the terminals from the indiegame "Ultrakill""
+                url="https://uk-terminal.vercel.app"
+                url_gh="https://github.com/hactuss/uk-terminal"
+            />
         </div>
         <hr />
         <div>
