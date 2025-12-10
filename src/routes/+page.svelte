@@ -48,7 +48,7 @@
 
                 <li>
                     Currently learning <a
-                        id="marked4"
+                        id="marked5"
                         href="https://rust-lang.org"
                     >
                         Rust
@@ -197,6 +197,9 @@
     }
     #marked4 {
         color: rgb(82 107 171);
+    }
+    #marked5 {
+        color: rgb(140 87 53);
     }
 
     @media screen and (width <= 500px) {
