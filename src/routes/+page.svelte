@@ -136,6 +136,11 @@
 </main>
 
 <style>
+	 * {
+        cursor:
+            url("https://psychoslinux.gitlab.io/images/Cursor_RetroWave_Normal.gif"),
+            auto;
+    }
     #SIDEBAR {
         flex: 1;
         display: flex;
