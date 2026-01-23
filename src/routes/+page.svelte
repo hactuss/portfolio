@@ -1,6 +1,5 @@
 <script>
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
-	import FAQCard from '$lib/components/FAQCard.svelte';
 	import ghlogo from '$lib/assets/images/github-mark-white.svg';
 </script>
 
@@ -18,13 +17,6 @@
 
 <main id="MAIN_CONTAINER">
 	<main id="SIDEBAR">
-		<!--
-        <div id="SIDEBAR_LOGO">
-            <img
-                src="http://localhost:5173/src/lib/assets/haj-logo.svg"
-                alt="haj-logo"
-            />
-            </div>-->
 		<span id="SIDEBAR_TEXT">H A C T U S S</span>
 		<div id="gh_link">
 			<a href="https://github.com/hactuss" id="githublogo">
@@ -125,7 +117,7 @@
 
 <style>
 	* {
-		cursor: url('https://psychoslinux.gitlab.io/images/Cursor_RetroWave_Normal.gif'), auto;
+		cursor: url('../lib/assets/images/Cursor.png'), auto;
 	}
 	#SIDEBAR {
 		flex: 1;
