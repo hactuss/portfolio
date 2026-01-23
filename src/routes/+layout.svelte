@@ -1,12 +1,12 @@
 <script lang="ts">
-    import favicon from "$lib/assets/images/favicon.svg";
-    import "../app.scss";
-    let { children } = $props();
+	import favicon from '$lib/assets/images/favicon.svg';
+	import '../app.css';
+	let { children } = $props();
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
-    <title>Hactuss Portfolio</title>
+	<link rel="icon" href={favicon} />
+	<title>Hactuss Portfolio</title>
 </svelte:head>
 
 {@render children?.()}
