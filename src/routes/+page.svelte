@@ -109,7 +109,7 @@
 		<hr />
 		<footer>
 			<p>
-				Contact me via Email: <span id="marked1">hactuss@proton.me</span>
+				Contact me via Email: <a href="mailto:hactuss@proton.me"><span id="marked1">hactuss@proton.me</span></a>
 			</p>
 		</footer>
 	</main>
