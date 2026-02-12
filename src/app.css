@@ -1,6 +1,7 @@
 * {
   margin: 5px;
   /*font-family: "DugasPro";*/
+  color: hsl(0 0 79);
 }
 :root {
   font-size: 1.25rem;
@@ -22,7 +23,6 @@
 
 html {
   background-color: rgb(30 30 30);
-  color: white;
   background-image: url("https://imgs.search.brave.com/bDx7OquS6IrpfGWWKAKuLEB978SrEmZYS_wT76gkmLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29uY3JldGUt/dGV4dHVyZS1waWN0/dXJlcy1yZzF5aGRo/dTlrYnVpbmZ3Lmpw/Zw");
   background-size: contain;
   background-image: none;

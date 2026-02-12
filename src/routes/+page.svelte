@@ -34,18 +34,16 @@
             Primary programming language: <a
               id="marked2"
               href="https://svelte.dev/">Svelte</a
-            >
+            ><!-- --
             and
-            <a id="marked3" href="https://sass-lang.com/">SCSS</a>
+            <a id="marked3" href="https://sass-lang.com/">SCSS</a>-->
           </li>
-
+          <!-- --
           <li>
             Currently learning <a id="marked5" href="https://rust-lang.org">
               Rust
             </a>
-          </li>
-
-          <li>Seeking job in IT industry</li>
+          </li>-->
         </ul>
       </div>
       <!-- --
@@ -114,7 +112,7 @@
           </li>
           <li>Drawing comics</li>
           <li>Reading books regarding my hobbies or general literature</li>
-          <li>Gaming</li>
+          <li>Gaming (Splatoon 3)</li>
         </ul>
       </div>
     </div>
@@ -133,12 +131,24 @@
   * {
     cursor: url("../lib/assets/images/Cursor.png"), auto;
   }
+  :root {
+    --white: color: hsl(0 0 79);
+  }
   #SIDEBAR {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(50, 50, 50);
+    /*background-color: rgb(50, 50, 50);*/
+    background: #0a0a0a;
+    background: linear-gradient(
+      90deg,
+      rgba(10, 10, 10, 1) 5%,
+      rgba(50, 50, 50, 1) 50%,
+      rgba(100, 100, 100, 1) 75%,
+      rgba(200, 200, 200, 1) 90%,
+      rgba(125, 125, 125, 1) 100%
+    );
   }
   #SIDEBAR_TEXT {
     writing-mode: vertical-lr;

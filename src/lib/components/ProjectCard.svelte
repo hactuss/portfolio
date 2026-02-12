@@ -22,8 +22,8 @@
 <style>
   main {
     background-color: transparent;
-    color: white;
-    border: white solid 1px;
+    color: hsl(0 0 79);
+    border: hsl(0 0 79) solid 1px;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 3%;
