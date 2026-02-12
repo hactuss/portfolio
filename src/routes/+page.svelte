@@ -1,6 +1,17 @@
-<script>
+<script lang="ts">
   import ProjectCard from "$lib/components/ProjectCard.svelte";
   import ghlogo from "$lib/assets/images/github-mark-white.svg";
+  import { createSubscriber } from "svelte/reactivity";
+
+  let cursor = $state("_");
+
+  function blink() {
+    if (cursor == "_") {
+      cursor = " ";
+    } else {
+      cursor = "_";
+    }
+  }
 </script>
 
 <!--
@@ -27,7 +38,10 @@
   <main id="MAIN_CONTENTS">
     <header>
       <div class="header-1">
-        <h1>Name: <span id="marked1">Hactuss</span></h1>
+        <div class="name-text">
+          <h1>Name: <span id="marked1">Hactuss</span></h1>
+          <p></p>
+        </div>
         <ul>
           <li>Frontend webdevelopment as a hobby</li>
           <li>
@@ -82,6 +96,7 @@
         url="https://isitspookymonth.vercel.app"
         url_gh="https://github.com/hactuss/isitspookymonthdotcom"
       />
+      <!--
       <ProjectCard
         title="Ultrakill Terminal"
         buildtime="Nov 29. 2025"
@@ -95,7 +110,7 @@
         discription="A simple yet funcional calendar in the Aero style"
         url="https://aerocalendar.vercel.app"
         url_gh="https://github.com/hactuss/aerocalendar"
-      />
+      />-->
     </div>
     <hr />
     <div>
@@ -229,4 +244,8 @@
       margin-left: 1rem;
     }
   }
+
+  /*.name-text {
+    border: solid 2px rgb(0 100 100);
+  }*/
 </style>
