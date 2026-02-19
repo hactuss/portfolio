@@ -29,9 +29,9 @@
 <main id="MAIN_CONTAINER">
   <main id="SIDEBAR">
     <span id="SIDEBAR_TEXT">H A C T U S S</span>
-    <div id="gh_link">
-      <a href="https://github.com/hactuss" id="githublogo">
-        <img src={ghlogo} alt="github_logo" />
+    <div id="gh_link" class="marked">
+      <a href="https://github.com/hactuss" id="githublogo" class="marked">
+        <img src={ghlogo} alt="github_logo" class="marked" />
       </a>
     </div>
   </main>
@@ -47,6 +47,7 @@
           <li>
             Primary programming language: <a
               id="marked2"
+              class="marked"
               href="https://svelte.dev/">Svelte</a
             ><!-- --
             and
@@ -122,6 +123,7 @@
           <li>
             Experimenting with Linux (Specifically <a
               id="marked4"
+              class="marked"
               href="https://nixos.org/">NixOS</a
             >)
           </li>
@@ -134,8 +136,8 @@
     <hr />
     <footer>
       <p>
-        Contact me via Email: <a href="mailto:hactuss@proton.me"
-          ><span id="marked1">hactuss@proton.me</span></a
+        Contact me via Email: <a href="mailto:hactuss@proton.me" class="marked"
+          ><span id="marked1" class="marked">hactuss@proton.me</span></a
         >
       </p>
     </footer>
@@ -229,7 +231,11 @@
   #marked5 {
     color: rgb(140 87 53);
   }
-
+  .marked {
+    cursor:
+      url("./../lib/assets/images/Clicker.cur") 0 0,
+      pointer;
+  }
   @media screen and (width <= 500px) {
     #MAIN_CONTAINER {
       flex-direction: column;

@@ -27,10 +27,15 @@ html {
   background-size: contain;
   background-image: none;
   cursor:
-    url("./lib/assets/images/Cursor.cur") 2 2,
-    auto;
+    url("./lib/assets/images/Cursor.cur") 0 0,
+    default;
 }
-
+a,
+img {
+  cursor:
+    url("./lib/assets/images/Clicker.cur") 0 0,
+    pointer;
+}
 header {
   display: flex;
 }
