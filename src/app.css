@@ -26,7 +26,11 @@ html {
   background-image: url("https://imgs.search.brave.com/bDx7OquS6IrpfGWWKAKuLEB978SrEmZYS_wT76gkmLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29uY3JldGUt/dGV4dHVyZS1waWN0/dXJlcy1yZzF5aGRo/dTlrYnVpbmZ3Lmpw/Zw");
   background-size: contain;
   background-image: none;
+  cursor:
+    url("./lib/assets/images/Cursor.cur") 2 2,
+    auto;
 }
+
 header {
   display: flex;
 }
@@ -36,7 +40,21 @@ footer {
 li,
 ul {
   list-style-type: "▷ ";
+  list-style-type: "◦ ";
+  list-style-type: "》";
+  list-style-type: "> ";
+  list-style-type: "⁎ ";
+
+  /*
+  https://www.madeintext.com/gaming-symbols/
+  https://www.madeintext.com/minecraft-symbols/
+  https://www.madeintext.com/star-symbols/
+  https://www.madeintext.com/circle-symbols/
+  */
 }
 a {
   color: #c8fa14;
+}
+hr {
+  width: 110%;
 }

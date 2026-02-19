@@ -183,6 +183,8 @@
   #MAIN_CONTENTS {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
   }
 
   .header-1 {
