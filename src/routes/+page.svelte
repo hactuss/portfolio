@@ -91,6 +91,13 @@
         url_gh="https://github.com/hactuss/hactuss.github.io"
       />
       <ProjectCard
+        title="The office"
+        buildtime="Aug 12. 2025"
+        discription="a website for various timezones written in svelte"
+        url="https://officehaj.vercel.app/"
+        url_gh="https://github.com/hactuss/office-haj" 
+      />
+      <ProjectCard
         title="It is spooky month?"
         buildtime="Sep 15. 2025"
         discription="a small jokewebsite I built in reference to the Spooky Month indie animation series. Shows something special in october."
